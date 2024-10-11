@@ -2,6 +2,14 @@
 This repository contains datasets accompanying our research "Large Language Models for Code-Mixed Data Augmentation in Sentiment Analysis" (EMNLP '24). The datasets include both natural and synthetic data in Malayalam-English and Spanish-English.
 
 ## Datasets Overview
+
+Each CSV file contains two columns:
+- **Sentence**: This column includes the text of the sentences being analyzed. Each row represents a different sentence.
+- **Label**: This column provides the sentiment label assigned to each sentence. The possible labels are:
+  - **Positive**: Indicates a positive sentiment.
+  - **Negative**: Indicates a negative sentiment.
+  - **Neutral**: Indicates a neutral sentiment.
+
 ### Malayalam-English
 The following files contain data for Malayalam-English code-mixing:
 
@@ -18,7 +26,7 @@ The following files contain data for Spanish-English code-mixing:
 - **ensp_natural_train.csv**: Training set for natural Spanish-English code-mixing data.
 - **ensp_synthetic_llm-generated.csv**: Synthetic data generated using language models for Spanish-English code-mixing.
 - **ensp_synthetic_randomly-translated.csv**: Synthetic data created through random translation techniques for Spanish-English code-mixing.
-
+  
 ## Usage
 You can load the datasets using `pandas` as follows:
 
