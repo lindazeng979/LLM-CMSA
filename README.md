@@ -1,5 +1,5 @@
-# Large Language Models for Code-Mixed Data Augmentation in Sentiment Analysis
-This repository contains datasets accompanying our research "Large Language Models for Code-Mixed Data Augmentation in Sentiment Analysis" (EMNLP '24). The datasets include both natural and synthetic data in Malayalam-English and Spanish-English.
+# Leveraging Large Language Models for Code-Mixed Data Augmentation in Sentiment Analysis
+This repository contains datasets accompanying our research "Leveraging Large Language Models for Code-Mixed Data Augmentation in Sentiment Analysis" (EMNLP '24). The datasets include both natural and synthetic data in Malayalam-English and Spanish-English.
 
 ## Datasets Overview
 
